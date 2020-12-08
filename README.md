@@ -72,3 +72,17 @@ voc/images/000000109622.jpg  # image
 voc/labels/000000109622.txt  # label
 ```
 For further understanding you can check inside `plate_detection` or `charater_detection`
+### Select a Model
+Select and modify the models parameters `nc` related to your dataset
+```
+plate_detection/yolov5/models/(yolov5s,yolov5m,yolov5l,yolov5x)
+character_detection/yolov5/models/(yolov5s,yolov5m,yolov5l,yolov5x)
+```
+### Train
+you can modify hyperparameter inside train.py
+```
+ Train YOLOv5s on COCO128 for 5 epochs
+$ python train.py --img 640 --batch 16 --epochs 5 --data data/voc.yaml
+```
+### End to end testing
+copy plate detection weight and character detection weight into `end-t-end-test/final_weight/(detection_weight).pt and end-t-end-test/recognition_model/final_weight/(character recognition weight).pt`
