@@ -89,3 +89,5 @@ $ python train.py --img 640 --batch 16 --epochs 5 --data data/voc.yaml
 ### End to end testing
 copy plate detection weight and character detection weight into `end-t-end-test/final_weight/(detection_weight).pt and end-t-end-test/recognition_model/final_weight/(character recognition weight).pt`
 For more information check each folder inside 
+
+EnglishLP dataset pretrained weight download link for detection weight https://drive.google.com/file/d/1dnTTVbGq4NLDDlJHMZBAwPcRVjL_yQgZ/view?usp=sharing
