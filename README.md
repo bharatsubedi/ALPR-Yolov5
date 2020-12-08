@@ -91,3 +91,4 @@ copy plate detection weight and character detection weight into `end-t-end-test/
 For more information check each folder inside 
 
 EnglishLP dataset pretrained weight download link for detection weight https://drive.google.com/file/d/1dnTTVbGq4NLDDlJHMZBAwPcRVjL_yQgZ/view?usp=sharing
+recognition weight https://drive.google.com/file/d/1aNvYucWlfVy8w_Ijh0wEE9j7rtMCKLjR/view?usp=sharing
