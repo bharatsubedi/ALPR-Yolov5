@@ -1,5 +1,6 @@
 # ALPR-Yolov5 (Automatic license Plate detection and recognition)
 This is the Automatic license plate detection and recognition system using Yolov5. Both plate detection and character detection and recognition using Yolov5.
+I used `EnglishLP` dataset for experiment but you can try with any other dataset also
 
 ![Alt text](end-t-end-test/result/P1010002.png?raw=true "Title")
 # dependencies
