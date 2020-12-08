@@ -1,4 +1,4 @@
-# ALPR-Yolov5 (Plate detection and character recognition)
+# ALPR-Yolov5 (Automatic license Plate detection and recognition)
 This is the Automatic license plate detection and recognition system using Yolov5. Both plate detection and character detection and recognition using Yolov5.
 
 # dependencies
