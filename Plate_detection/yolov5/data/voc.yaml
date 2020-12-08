@@ -1,0 +1,8 @@
+train: ../voc/images/ 
+val: ../voc/images/  
+
+# number of classes
+nc: 1
+
+# class names
+names: ['plate']
