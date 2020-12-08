@@ -65,3 +65,10 @@ names: ['plate']
     * Each row is `class x_center y_center width height` format.
     * Box coordinates must be in normalized xywh format (from 0 - 1). If your boxes are in pixels, divide `x_center` and `width` by image width, and `y_center` and `height` by image height.
     * Class numbers are zero-indexed (start from 0).
+- Organize directories
+Organize your train and val images and labels according to the example below. In this example we assume /voc is next to the /yolov5 directory. YOLOv5 locates labels automatically for each image by replacing the last instance of /images/ in the images directory with /labels/. For example:
+```
+voc/images/000000109622.jpg  # image
+voc/labels/000000109622.txt  # label
+```
+For further understanding you can check inside `plate_detection` or `charater_detection`
