@@ -1,0 +1,11 @@
+https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
+
+1) Prepare data images and labels
+2) change data/voc.yaml
+3) change hyperparameter if required data/hyp.scratch.yaml
+4) change yolo version in training yolov5s,yolov5l,yolov5s,yolov5m
+5) change image size epoch and batch size from train.py
+6) change models/yolo5s or other models nc=number of class in our dataset
+python train.py
+python test.py
+python detect.py
