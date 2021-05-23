@@ -26,7 +26,7 @@ half = device.type != 'cpu'
 print('device:', device)
 weights ='final_weight/detection_best.pt'
 model = attempt_load(weights, map_location=device)
-weights_reco ='recognition_model/final_weights/recognition_best.pt'
+weights_reco ='recognition_model/final_weight/recognition_best.pt'
 model_reco = attempt_load(weights_reco, map_location=device)
 #half=True
 if half:
