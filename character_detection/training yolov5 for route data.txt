@@ -9,3 +9,4 @@ https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
 python train.py
 python test.py
 python detect.py
+
